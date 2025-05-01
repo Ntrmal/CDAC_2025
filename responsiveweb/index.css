@@ -1,0 +1,367 @@
+body {
+    padding-top: 70px; /* Adjust based on the height of your navbar */
+}
+.navbar {
+    background-color: #fff;
+   
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.custom-btn {
+    border-radius: 20px; 
+    border: 2px solid #01070f; 
+    height: 60px;
+    background: none; 
+    padding: 0.5rem 1.5rem;
+    font-size: 0.9rem;
+
+   
+}
+.nav-item{
+    padding-right:50px;
+}
+.logo-container1 {
+    margin-left: 100px; 
+}
+.navbar-nav {
+    margin-right: 150px; 
+}
+.col-lg-6 h2 
+{
+    font-family: 'Space Grotesk', sans-serif;  
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 76.56px;
+    text-align: left;
+    
+}
+.col-lg-6 p{
+   
+        font-family: 'Space Grotesk';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        
+    
+}
+.custom-btn2 
+{
+    
+        font-family: 'Space Grotesk', sans-serif;  
+        font-size: 20px;  
+        font-weight: 400;  
+        line-height: 28px;  
+        text-align: center;  
+        background-color: #000509;  
+        color: white;  
+        padding: 20px ;  
+        border-radius: 14px; 
+        justify-content: center;
+       
+ }
+ .custom-btn2:hover {
+        opacity: 0.8;  
+}
+@media (max-width: 768px) 
+{
+    .custom-button {
+        width: 80%;              
+        height: auto;            
+    }}
+    
+/* Container for the logo section */
+
+/* Container for the logo section */
+.company-logos {
+   
+    padding: 50px 0;  
+    
+}
+
+
+.logo-row {
+    margin: 0px;
+    display: flex;  
+    flex-wrap: nowrap; 
+    
+}
+
+.logo-container2 {
+    margin: 0;
+    flex: 1;  
+    display: flex;
+    max-width: 100px;  /* Limit max width of logos to ensure proper scaling */
+    padding: 10px;  /* Add some padding around logos */
+}
+
+
+/* Logo styles */
+.logo {
+    max-width: 100%;  /* Make logo responsive */
+    height: auto;  /* Maintain aspect ratio */
+    display: block;  /* Block-level element for images */
+   
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .logo-row {
+        flex-wrap: wrap;  /* Allow logos to wrap on smaller screens */
+        justify-content: space-between;  /* Space logos evenly */
+    }
+
+    .logo-container {
+        flex: 1 1 20%;  /* Each logo container takes 20% of the width on smaller screens */
+        text-align: center;  /* Center logos */
+        max-width: 120px;  /* Adjust maximum width on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-container {
+        flex: 1 1 30%;  /* On very small screens, each logo takes up 30% of the container width */
+    }
+}
+/* Services Section Styling */
+.services-section {
+    margin-top: 40px; /* Adjust as needed based on the navbar */
+    display: flex;
+    justify-content: start; /* Ensures content starts from the left */
+    align-items: center; /* Aligns text and heading vertically */
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+
+/* Green Box Heading */
+.services-heading {
+    background-color: #B9FF66; /* Green background color */
+    color: rgb(7, 7, 7); /* Text color for better contrast */
+    font-family: Space Grotesk; 
+    font-size: 40px; /* Font size for heading */
+    font-weight: 500; /* Medium weight */
+    padding: 10px 20px; /* Padding inside the green box */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text in the box */
+   
+}
+
+/* Services Text Styling */
+.services-text {
+    font-family: Space Grotesk, sans-serif; /* Font-family */
+    font-size: 18px; /* Font size */
+    font-weight: 400; /* Normal weight */
+    color: #333; /* Neutral dark text color */
+    line-height: 22.9px; /* Line height for readability */
+   padding-left: 30px;
+}
+
+/* Responsive Breakpoint */
+@media (max-width: 768px) {
+    .services-section {
+        flex-direction: column; /* Stack heading and text vertically */
+        align-items: start; /* Align items to the left */
+    }
+    .services-heading {
+        margin-bottom: 10px; /* Add space between heading and text */
+    }
+}
+/* Card styles with bottom shadow */
+/* Basic card styling */
+.custom-card {
+    border-radius: 10px; /* Round the corners of the card */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Darker bottom shadow effect */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+}
+
+/* Hover effect */
+.custom-card:hover {
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.7); /* Darker shadow on hover */
+    border: 2px solid #090909; /* Change border color on hover (example: red) */
+    transform: scale(1.05); /* Magnifying effect (slightly zoomed in) */
+}
+
+.card-img {
+    
+    
+    margin-left: 90px;
+    width: 210px;
+    height: 170px;
+    object-fit: contain; /* Maintains image aspect ratio */
+}
+.card-icon {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    width: 40px;
+    height: auto;
+}
+.card-label {
+    position: absolute;
+    bottom: 30px;
+    left: 70px; /* Offset from icon */
+    font-family: Space Grotesk, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+/* Background Colors for Cards */
+.card-1 {
+    background-color:#F3F3F3 !important; 
+    
+   
+    
+}
+
+.card-2 {
+    background-color: #B9FF66 !important; 
+}
+
+.card-3 {
+    background-color: #191A23 !important; 
+}
+
+.card-4 {
+    background-color: #F3F3F3 !important; 
+}
+
+.card-5 {
+    background-color: #B9FF66 !important; 
+}
+
+.card-6 {
+    background-color: #191A23 !important; 
+}
+/* Styling for card headings */
+.heading-1 {
+    background-color: #B9FF66; /* Green */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+    
+}
+
+.heading-2 {
+    background-color: #FFFFFF; /* Blue */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.heading-3 {
+    background-color: #FFFFFF; /* Orange */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.heading-4 {
+    background-color: #B9FF66; /* Purple */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.heading-5 {
+    background-color: #FFFFFF; /* Deep Orange */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.heading-6 {
+    background-color: #B9FF66; /* Gray */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Ensure headings remain responsive */
+.card-title {
+    font-family: Space Grotesk, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+/* Specific colors for each "Learn More" label */
+.label-1 {
+    color:black ;
+}
+.label-3{
+    color: white;
+}
+.label-6{
+    color: white;
+}
+/* Ensure headings and labels are responsive */
+.card-title, .card-label {
+    font-family: Space Grotesk, sans-serif;
+}.full-width-card {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping on small screens */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.full-width-card {
+   
+    max-width: 1300px; /* Set a maximum width */
+  
+    margin: 30px auto; /* Center the card */
+    background-color: #F3F3F3; /* Light background color */
+    padding: 30px; /* Add some padding */
+    border-radius: 20px; /* Rounded corners */
+    display: flex; /* Enable flexbox for alignment */
+    justify-content: space-between; /* Space between text and image */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+.section-heading,
+.section-paragraph,
+.section-btn {
+    max-width: 600px; /* Keep the text width manageable */
+    margin-bottom: 20px; /* Add spacing between elements */
+    font-family: 'Space Grotesk', sans-serif;
+}
+.section-image {
+    max-width: 400px; /* Set a max width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add slight rounding to the image corners */
+}
+@media (max-width: 768px) {
+    .full-width-card {
+        flex-direction: column; /* Stack content vertically */
+        text-align: center; /* Center-align text for smaller screens */
+    }
+
+    .section-image {
+        margin-top: 20px; /* Add spacing above the image */
+    }
+
+    .section-heading, .section-paragraph {
+        max-width: 100%; 
+        
+    }
+}
+.full-width-card .section-btn {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px; /* Button text size */
+    background-color: #000 !important; 
+    color: #fff !important; /* White text color with high priority */
+    border: none;
+    padding: 12px 25px; /* Adjust padding for size */
+    border-radius: 30px; /* Rounded button corners */
+}
+
+
