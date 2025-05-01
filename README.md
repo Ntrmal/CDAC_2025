@@ -1,26 +1,19 @@
-# School Responsive Webpage
+# 💼 Private Consultation Website
 
-This is a responsive school website built using **HTML**, **CSS**, and **Bootstrap**. It is designed to provide a clean and modern user interface for a school's online presence, accessible across all device types.
+This is a responsive website for a **private consultation business**, built using **HTML**, **CSS**, and **Bootstrap 5**. The site is designed to present services professionally and ensure accessibility across all devices.
 
-## 📌 Features
+## 🌟 Features
 
-- Fully responsive layout using Bootstrap Grid
-- Homepage with welcome message and school highlights
-- About section with school vision/mission
-- Gallery section 
-- Contact form 
-- Navigation bar with responsive dropdown
-- Footer with contact details and social media icons
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- Bootstrap 5
+- Modern and responsive design
+- Professional layout for consulting services
+- Homepage with introduction and call to action
+- About section with company background or consultant profile
+- Services section outlining offerings
+- Sticky navigation bar and footer with contact/social links
 
 ## 🚀 Getting Started
 
-To view or edit this project locally:
+To run this project locally:
 
 1. Clone the repository:
 
