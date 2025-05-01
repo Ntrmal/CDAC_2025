@@ -1,8 +1,8 @@
-# 💼 Private Consultation Website
+# Private Consultation Website
 
 This is a responsive website for a **private consultation business**, built using **HTML**, **CSS**, and **Bootstrap 5**. The site is designed to present services professionally and ensure accessibility across all devices.
 
-## 🌟 Features
+# Features
 
 - Modern and responsive design
 - Professional layout for consulting services
@@ -11,7 +11,7 @@ This is a responsive website for a **private consultation business**, built usin
 - Services section outlining offerings
 - Sticky navigation bar and footer with contact/social links
 
-## 🚀 Getting Started
+# Getting Started
 
 To run this project locally:
 
